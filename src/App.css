@@ -1,0 +1,66 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.CharacterDisplay {
+  margin-top: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top, #0d2b6d, #67adf2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  color: black;
+}
+
+/* White border box around text */
+.App-container {
+  background-color: white; /* White with 80% opacity */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+}
+
+h1 {
+  color: white;
+}
+
+/* App.css */
+
+.app-container {
+}
+
+.search-container,
+.character-list-container {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.character-list-container {
+  overflow-y: auto;
+  max-height: calc(100vh - 160px); /* Adjust based on your layout */
+}

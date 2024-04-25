@@ -1,0 +1,4 @@
+.character-name:hover,
+.character-name.hovered {
+  text-decoration: underline;
+}
